@@ -1,0 +1,105 @@
+coba final code yang benar gimana
+.card-detail>.card-body>.row>.col-md-8,
+h3 {
+	color: black;
+}
+
+.bg-login-image {
+	background: url('http://localhost/Arsip/assets/img/filing-system.svg');
+	background-position: center;
+	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.bg-register-image {
+	background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-password-image {
+	background: url('http://localhost/Arsip/assets/img/bg-forgot.svg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.table {
+	text-align: center;
+}
+
+#tbl-laporan>tbody>tr>td:nth-child(1),
+#tbl-disposisi>tbody>tr>td:nth-child(1) {
+	vertical-align: text-top;
+}
+
+.table>tbody>tr>* {
+	vertical-align: middle;
+}
+
+
+#tbl-laporan>tbody>tr>td:nth-child(2),
+#tbl-disposisi>tbody>tr>td:nth-child(2) {
+	text-align: left;
+}
+
+/* custom */
+.bg-primary {
+	background-color: #1976e8 !important; /*Mengubah warna sidebar*/
+}
+
+.btn-primary {
+	background-color: #6c63ff;
+	border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+	background-color: #5a50ff;
+	border-color: #2653d4;
+}
+
+.btn-danger {
+	background-color: #f54272;
+	border-color: #f54272;
+}
+
+.btn-danger:hover {
+	background-color: #e03f6a;
+	border-color: #e02f5e;
+}
+
+.btn-outline-danger {
+	color: #f54272;
+	border-color: #f54272;
+}
+
+.btn-outline-danger:hover {
+	color: #fff;
+	background-color: #e02f5e;
+	border-color: #e02f5e;
+}
+
+.border-left-primary {
+	border-left: 0.25rem solid #6c63ff !important;
+}
+
+.badge-primary {
+	background-color: #6c63ff;
+}
+/*SIDEBAR GRADIENT 
+.bg-gradient-primary {
+	background-image: linear-gradient(
+		180deg,
+		#6c63ff 10%,
+		#4a42e9 100%
+	) !important;
+
+<!-- semua JS di bawah -->
+<script src="<?= base_url('assets/vendor/jquery/jquery.min.js') ?>"></script>
+<script src="<?= base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+
+<!-- Custom CSS terakhir, paling bawah -->
+<link href="<?= base_url('assets/css/custom.css'); ?>" rel="stylesheet">
+<link href="<?= base_url('assets/css/sb-admin-2.min.css'); ?>" rel="stylesheet">
+<link href="<?= base_url('assets/css/custom.css?v=2'); ?>" rel="stylesheet">}*/
